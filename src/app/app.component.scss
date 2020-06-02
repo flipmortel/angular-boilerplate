@@ -1,0 +1,8 @@
+
+@import '../sass/styles';
+
+h1 {
+  @include bp(xs){
+    background-color: $primary-color;
+  }
+}
